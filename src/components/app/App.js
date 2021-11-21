@@ -6,7 +6,8 @@ import AddForm from '../form/addForm'
 import AddCard from '../Favourites/addCard/addCard'
 
 import {
-  BrowserRouter as Router,
+  
+  HashRouter,
   Route,
   Switch
 } from "react-router-dom";
@@ -47,7 +48,7 @@ class App extends Component {
   render() {
     // const data = this.data;
     return (
-      <Router>
+      <HashRouter>
         
           <div className="App">
           
@@ -76,7 +77,7 @@ class App extends Component {
           </main>
          
         </div>
-      </Router>
+      </HashRouter>
     );
   }
 }
