@@ -1,4 +1,4 @@
-import '../../maimInfoCard/mainInfoCard.scss'
+import '../maimInfoCard/mainInfoCard.scss'
 
     const AddCard = (props) => {
       

@@ -3,7 +3,7 @@ import MenuItems from '../menuItems/menuItems';
 import FoodCard from '../maimInfoCard/mainInfoCard'
 import './app.scss'
 import AddForm from '../form/addForm'
-import AddCard from '../Favourites/addCard/addCard'
+import AddCard from '../addCard/addCard'
 
 import {
   

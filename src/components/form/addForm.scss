@@ -81,7 +81,7 @@
 @media (max-width: 460px){
     .form {
         width: 300px;
-    
+        height: 375px;
         &__item-name {
             display: block;
             width: 260px;
@@ -90,7 +90,7 @@
         &__text-area {
             display: block;
             width: 260px;
-            min-height: 200px;
+            min-height: 100px;
             margin-bottom: 17px;
             
 
@@ -102,5 +102,15 @@
             border: 1px solid #ACACAC;
             width: 260px;
         }
+    }
+
+    .overlay__close {
+        position: absolute;
+        display: block;
+        top: 15px;
+        right: 20px;
+        font-size: 50px;
+        cursor: pointer;
+        color: #fff;
     }
 }

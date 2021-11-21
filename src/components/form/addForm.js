@@ -51,8 +51,8 @@ class AddForm extends Component {
 
         return (
             <>
-            <div class={overlay} >
-            <div class="overlay__close" onClick={this.onActive}>&times;</div>
+            <div className={overlay} >
+            <div className="overlay__close" onClick={this.onActive}>&times;</div>
                 <form action="#" className={classNames}  onSubmit = {this.onSubmit}>
                     <h3 className="form__title">Add custom dish</h3> 
                     <div class="form__close" onClick={this.onActive}>&times;</div>
