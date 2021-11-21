@@ -1,0 +1,27 @@
+.wrapper {
+    background: #F2F2F2;
+    height: 85px;
+    padding: 20px 0 20px 0;
+}
+
+.menu {
+    padding: 0; 
+    display: flex;
+    flex: 1 1 50%;
+    justify-content: space-evenly;
+    text-align: center;
+    &__item {
+        display: block;
+        
+        a {
+            font-size: 25px;
+            line-height: 150%;
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+            // &:hover {
+            //     color: black;
+            // }
+        }
+    }
+}

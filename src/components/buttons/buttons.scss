@@ -1,0 +1,43 @@
+.buttons {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    width: 12rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #bb2d3b;
+    
+    &__like {
+        background-color: #146c43;
+    }
+    &-form {
+        position: absolute;
+        right: 20px;
+        top: 19px;
+        display: none;
+        width: 14rem;
+        padding: 12px;
+    }
+    &-active {
+        display: block;
+    }
+   
+    
+}
+
+@media (max-width: 430px) {
+    .buttons{
+        width: 9rem;
+    }
+}
+@media (max-width: 1100px)  {
+    .buttons-form {
+        position: absolute;
+        right: 50%;
+        transform: translate(50%);
+        top: 100px;
+        width: 12rem;
+    }
+}
